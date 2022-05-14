@@ -1,0 +1,49 @@
+#root,
+body,
+html {
+    height: 100%;
+    background: #000000;
+    color: #FFFFFF;
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#content {
+    z-index: 10;
+    height: 200px;
+    width: 300px;
+    background: rgba(0, 0, 0);
+    /* backdrop-filter: blur(2px); i dont want to murder processing power yet */
+}
+#typing-effect {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1em;
+    color: #c8e9fa;
+    margin: 0 0 1em 0;
+    width: 0;
+    animation: 
+        typing 2s forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
