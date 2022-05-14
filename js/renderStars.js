@@ -273,11 +273,3 @@ window.onload = () => {
 };
 
 // Listeners
-
-document.getElementById("mainAvatar").onclick = () => {
-    let index = presets.indexOf(config) + 1;
-    if (index >= presets.length)
-        index = 0;
-
-    initParticles(index);
-};

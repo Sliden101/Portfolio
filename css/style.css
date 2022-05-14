@@ -26,7 +26,7 @@ html {
 
 #content {
     z-index: 10;
-    height: 200px;
+    height: 100px;
     width: 300px;
     background: rgba(0, 0, 0);
     /* backdrop-filter: blur(2px); i dont want to murder processing power yet */
