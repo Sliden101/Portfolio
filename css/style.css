@@ -3,7 +3,7 @@ body,
 html {
     height: 100%;
     background: #000000;
-    color: #FFFFFF;
+    color: #ffffff;
     overflow: hidden;
     font-family: 'Roboto Mono', monospace;
 }
@@ -26,7 +26,7 @@ html {
 
 #content {
     z-index: 10;
-    height: 100px;
+    height: 80px;
     width: 300px;
     background: rgba(0, 0, 0);
     /* backdrop-filter: blur(2px); i dont want to murder processing power yet */
@@ -42,7 +42,9 @@ html {
     animation: 
         typing 2s forwards;
 }
-
+#menu-item{
+    align-items: center;
+}
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
