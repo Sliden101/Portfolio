@@ -15,7 +15,7 @@ const presets = [{ // index 0
         rainbow: true,
 
         particles: 100,
-        rate: 40, // lower = faster
+        rate: 50, // lower = faster
         delayAll: 4000,
         delayPer: 5
     },
