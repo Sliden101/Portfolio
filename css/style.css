@@ -53,6 +53,20 @@ html {
 #menu-item{
     align-items: center;
 }
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    transition: 1s;
+    border: 5px solid rgb(54, 222, 228);
+    padding: 1px;
+    width: 200px;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
