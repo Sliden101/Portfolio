@@ -71,3 +71,11 @@ html {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
+#socials{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
