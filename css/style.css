@@ -50,6 +50,11 @@ html {
     animation: 
         typing 2s forwards;
 }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
 #menu-item{
     align-items: center;
 }
@@ -65,9 +70,4 @@ html {
 .gallery img:hover{
     filter: grayscale(100%);
     transform: scale(1.1);
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
 }
